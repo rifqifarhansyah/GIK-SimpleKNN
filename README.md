@@ -1,6 +1,4 @@
-# GIK-SimpleKNN
-This is a weekly task for GIK research program (ML topics)
-# Garuda Ilmu Komputer - Weekly Task
+# **Garuda Ilmu Komputer** - Weekly Task
 <h2 align="center">
   K-Nearest Neighbor Implementation<br/>
 </h2>
