@@ -72,7 +72,7 @@ A simple program to implement K-Nearest Neighbor algorithm. The program will ran
 
 ## Screenshots
 <p>
-  <img src="/image/SS1.png/">
+  <img src="/image/SS.png/">
   <p>Figure 1. Main Menu</p>
   <nl>
   <img src="/image/SS2.png/">
