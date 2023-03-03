@@ -98,7 +98,7 @@ int main(int argc, const char * argv[]) {
     cout << "Masukkan nilai Target Point Y(-100 s.d. 100)\t: ";
     cin >> target_y;
 
-    cout << "Enter the Value of K(1- 1000)\t\t\t: ";
+    cout << "Masukkan nilai K(1 s.d. 1000)\t\t\t: ";
     cin >> K; 
     cout << "====================================================="<< "\033[0m" << endl;
 
