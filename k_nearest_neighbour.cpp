@@ -93,14 +93,14 @@ int main(int argc, const char * argv[]) {
     int K;
     // berikan warna pada terminal
     cout << "\033[1;32m" << "====================================================="<< endl;
-    cout << "Masukkan nilai Target Point X(-100 s.d. 100): ";
+    cout << "Masukkan nilai Target Point X(-100 s.d. 100)\t: ";
     cin >> target_x; 
-    cout << "Masukkan nilai Target Point Y(-100 s.d. 100): ";
+    cout << "Masukkan nilai Target Point Y(-100 s.d. 100)\t: ";
     cin >> target_y;
 
-    cout << "Enter the Value of K(1- 1000): ";
+    cout << "Enter the Value of K(1- 1000)\t\t\t: ";
     cin >> K; 
-    cout << "\033[0m"; 
+    cout << "====================================================="<< "\033[0m" << endl;
 
     NearestPointsContainer points_container;
     for(int i = 0; i < RANDOM_POINTS_COUNT; i++) {
@@ -113,7 +113,7 @@ int main(int argc, const char * argv[]) {
     cout << "\033[1;33m"; 
     int i=1; // Deklarasi untuk menampilkan nomor titik terdekat
     for(vector<Point>::iterator itr = nearest_points.begin(); itr != nearest_points.end(); ++itr){
-        cout<< "Poin terdekat ke-" << i << " : " << itr->GetX()<<" "<<itr->GetY()<<endl;
+        cout<< "Poin terdekat ke-" << i << "\t:\t" << itr->GetX()<<"\t"<<itr->GetY()<<endl;
         i++;
     }
     cout << "\033[0m";
